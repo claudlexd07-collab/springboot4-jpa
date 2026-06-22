@@ -1,0 +1,10 @@
+package com.our.store.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.our.store.entities.OrderItem;
+import com.our.store.entities.pk.OrderItemPK;
+
+public interface OrderItemRepository extends JpaRepository<OrderItem, OrderItemPK> {
+	
+}
